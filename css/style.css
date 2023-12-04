@@ -1,12 +1,13 @@
 /**********************************
     SECTION 1 CSS
 ***********************************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html{
     font-size: 62.5%; /* 16px*62.5% =10 rem */
 }
 
 body{
-    font: 1.6rem sans-serif;
+    font: 1.6rem "Roboto",sans-serif;
     margin: 0;
     letter-spacing: .1rem;
     line-height: 1.6;
@@ -21,15 +22,18 @@ h1,h2,h3,p,figure,ul{
 *{
     box-sizing: border-box;
 }
+icon-icon{
+    vertical-align: -0.4rem;
+}
 
 /************************
     section 2 CSS
 *************************/
 :root{
-    --theme--bg--color: #c3c3c3;
-    --header--bg--color: #27ae60;
+    --theme--bg--color:  #f0833a;
+    --header--bg--color: #079992;
     --list--bg--color:#b2bec3;
-    --text--color:#956ea5;
+    --text--color:#d35400;
     --text--letter--default:#222;
     --h1--color--part1: #fdcb6e;
     --h1--color--part2: #d63031;
@@ -55,8 +59,10 @@ header>h1>span{
 figure{
     max-width: 90rem;
     margin: 0 auto;
-    border: solid 0.5rem #fff;
+    border: solid 1rem #fff;
     background-color: #fff;
+    color: var(--text--color);
+    border-radius: 1rem;
 }
 figure>img{
     width: 100%;
@@ -85,4 +91,12 @@ details summary{
 
 details p{
     padding: 0.5rem;    
+}
+
+/*footer*/
+
+footer *{
+    text-align: center;
+    color: var(--text--color);
+    line-height: 6.5rem;
 }
