@@ -57,7 +57,6 @@ icon-icon{
     --h1--color--part2: red;
 }
 /*header*/
-
 header{
     background-color: var(--header--bg--color);
     margin-bottom: 5rem;
