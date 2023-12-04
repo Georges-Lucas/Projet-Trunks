@@ -33,7 +33,7 @@ icon-icon{
  }
  /* webkit */
  ::-webkit-scrollbar {
-    width: .9rem;
+    width: 1rem;
   }
    
   ::-webkit-scrollbar-track {
