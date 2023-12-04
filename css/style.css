@@ -49,9 +49,9 @@ icon-icon{
 *************************/
 :root{
     --theme--bg--color:  #f0833a;
-    --header--bg--color: #636e72;
+    --header--bg--color: #00b894;
     --list--bg--color:#b2bec3;
-    --text--color:#d35400;
+    --text--color:black;
     --text--letter--default:#222;
     --h1--color--part1: #fdcb6e;
     --h1--color--part2: red;
