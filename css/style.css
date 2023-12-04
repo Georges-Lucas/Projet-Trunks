@@ -25,7 +25,16 @@ h1,h2,h3,p,figure,ul{
 icon-icon{
     vertical-align: -0.4rem;
 }
-
+/*scrool bar*/
+*{
+    /* ff */
+    scrollbar-width: thin;
+    scrollbar-color: #000 #fff;
+}
+/* webkit */
+*::-webkit-scrollbar{
+    width: .2rem;
+}
 /************************
     section 2 CSS
 *************************/
