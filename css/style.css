@@ -74,11 +74,15 @@ figure figcaption ul.list-series li:nth-child(2n+1)/*1 sur 2 à partir du 1er é
 
 /*détail de la série*/
 
-details summary{
+details{
     background-color: var(--list--bg--color);
+}
+
+details summary{
     line-height: 6rem;
     padding-left: .5rem;
 }
 
-
-
+details p{
+    padding: 0.5rem;    
+}
