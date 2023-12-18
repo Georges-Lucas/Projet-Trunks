@@ -91,7 +91,7 @@ figure figcaption ul.list-series{
 figure figcaption ul.list-series li{
     padding: .5rem;
 }
-figure figcaption ul.list-series li:nth-child(2n+1)/*1 sur 2 à partir du 1er élément*/{
+figure figcaption ul.list-series li:nth-child(2n)/*1 sur 2 à partir du 1er élément*/{
     background-color: var(--list--bg--color);
 }
 
