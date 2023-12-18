@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 html{
     font-size: 62.5%; /* 16px*62.5% =10 rem */
-    background: url(../asset/Dragonball_z_by_goddessmechanic2-d7paus4-is-there-still-hope-for-a-live-action-dragon-ball-z-movie-jpeg-199365.webp) no-repeat fixed center / cover;
-    background:linear-gradient(to top,rgba(0,0,0,.6) 50%,rgba(0,0,0,.6) 50%),
+    background: linear-gradient(to top,rgba(0,0,0,.6) 50%,rgba(0,0,0,.6) 50%),
+    url(../asset/Dragonball_z_by_goddessmechanic2-d7paus4-is-there-still-hope-for-a-live-action-dragon-ball-z-movie-jpeg-199365.webp) no-repeat fixed center / cover;
 }
 
 body{
